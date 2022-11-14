@@ -1,0 +1,6 @@
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+@use './assets/scss/variables' as *;
+
+body {
+    background-color: $bb-dark;
+}
