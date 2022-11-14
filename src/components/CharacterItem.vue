@@ -10,7 +10,7 @@ export default {
     <div class="col">
         <div class="character">
             <img :src="character.img" :alt="character.name">
-            <h3>{{ character.name }}</h3>
+            <h5>{{ character.name }}</h5>
             <div class="category">{{ character.category }}</div>
             <div class="status">{{ character.status }}</div>
         </div>
@@ -30,8 +30,11 @@ export default {
 
     }
 
-    h3 {
+    h5 {
         color: $bb-light;
+        padding-bottom: 0.75rem;
+        padding-top: 0.5rem;
+        text-transform: uppercase;
     }
 
     .category,
