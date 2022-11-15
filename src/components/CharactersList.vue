@@ -20,7 +20,7 @@ export default {
     <section class="characters">
         <div class="container p-3">
             <div class="found  p-2">
-                <p>Found 62 characters</p>
+                <p v-if="store.characters !== null">Found {{ store.characters.length }} characters</p>
             </div>
             <div class="row row-cols-5 g-4 p-4">
                 <CharacterItem :character="character" v-for="character in store.characters" />
