@@ -19,10 +19,10 @@ export default {
 <template>
     <section class="characters">
         <div class="container p-3">
-            <div class="found m-4 p-2">
+            <div class="found  p-2">
                 <p>Found 62 characters</p>
             </div>
-            <div class="row row-cols-5 g-4">
+            <div class="row row-cols-5 g-4 p-4">
                 <CharacterItem :character="character" v-for="character in store.characters" />
             </div>
         </div>

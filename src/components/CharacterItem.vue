@@ -23,11 +23,12 @@ export default {
     padding: 1rem;
     background-color: $bb-dark;
     text-align: center;
-    height: 460px;
+    height: 100%;
 
     img {
         max-width: 100%;
-
+        height: 350px;
+        object-fit: cover;
     }
 
     h5 {
