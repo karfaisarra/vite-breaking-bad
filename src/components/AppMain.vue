@@ -35,7 +35,7 @@ export default {
 <template>
     <main>
         <div class="container py-4">
-            <SearchSelect @searchSelect="searchCategory" />
+            <SearchSelect @change="searchCategory" />
         </div>
         <CharactersList />
     </main>
